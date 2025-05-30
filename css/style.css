@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Comic Relief", system-ui;
+    background-color: #0077ff;
+    color: #000;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: transparent;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0077ff;
+    background: #00ffff;
+    padding: 20px 300px;
+    border-radius: 200%;
+    display: inline-block;
+    box-shadow: 0 0 25px #000000;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #00ffff;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.juego {
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.juego h2 {
+    color: #0077ff;
+    font-size: 1.2rem;
+}
+
+.juego img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.juego button {
+    background-color: #00ffff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #0077ff;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 0 0 10px #000000;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #00ffff;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 0 0 15px #00ffff;
+    width: 74%;
+    margin: 40px auto 0;
+    
+}
