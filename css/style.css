@@ -70,7 +70,6 @@ main {
     display: block;
     margin: 20px auto 0;
     box-shadow: 0 0 10px #000000;
-    cursor: pointer;
 }
 
 .juego button:hover {
